@@ -5,7 +5,7 @@
 - [x] Integrate JSN-SR04T, SIM800L, ESP-01, SD Card, RTC, and LCD.
 - [x] PCB Layout routing with optimized power lines (1mm+ tracks) and Ground planes.
 - [x] Clear DRC errors and generate Gerber files.
-- [ ] PCB manufacturing and hardware assembly (Soldering).
+- [x] PCB manufacturing and hardware assembly (Soldering).
 
 **Phase 2: Firmware Development**
 - [x] Sensor interfacing (Rain sensor, JSN-SR04T water level).
@@ -15,9 +15,9 @@
 - [x] ESP-01 Wi-Fi configuration for online data transmission.
 
 **Phase 3: System Integration & Testing**
-- [ ] Power stability and voltage drop testing on the custom PCB.
-- [ ] Real-world field testing (Simulating flood scenarios and heavy rain).
-- [ ] Code optimization and bug fixing.
+- [x ] Power stability and voltage drop testing on the custom PCB.
+- [x ] Real-world field testing (Simulating flood scenarios and heavy rain).
+- [x ] Code optimization and bug fixing.
 
 **Phase 4: Future Enhancements (Upcoming)**
 - [ ] Build a Web Dashboard or Mobile App (Flutter/React Native) for real-time monitoring.
