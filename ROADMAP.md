@@ -15,9 +15,9 @@
 - [x] ESP-01 Wi-Fi configuration for online data transmission.
 
 **Phase 3: System Integration & Testing**
-- [x ] Power stability and voltage drop testing on the custom PCB.
-- [x ] Real-world field testing (Simulating flood scenarios and heavy rain).
-- [x ] Code optimization and bug fixing.
+- [x] Power stability and voltage drop testing on the custom PCB.
+- [x] Real-world field testing (Simulating flood scenarios and heavy rain).
+- [x] Code optimization and bug fixing.
 
 **Phase 4: Future Enhancements (Upcoming)**
 - [ ] Build a Web Dashboard or Mobile App (Flutter/React Native) for real-time monitoring.
