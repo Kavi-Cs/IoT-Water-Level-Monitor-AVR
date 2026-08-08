@@ -104,7 +104,7 @@ To prevent repeated SMS dispatch while the 40 cm danger condition persists, a **
 A hardware **Watchdog Timer (WDT)** is enabled and serviced ("kicked") periodically during normal execution. Should the control loop stall — due to a network hang, a blocking UART wait on either wireless interface, or an unforeseen firmware fault — the watchdog reset is no longer serviced in time, and the WDT autonomously forces a full microcontroller reset within seconds, restoring normal operation without manual power-cycling. This is of particular importance for a device intended for unattended, long-duration field deployment.
 
 
-![Figure 4.1: System Operational Flowchart](flowchart.png){width=3.7in}
+![Figure 4.1: System Operational Flowchart](flowchart.png)
 
 ---
 
