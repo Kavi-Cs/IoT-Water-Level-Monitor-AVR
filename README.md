@@ -62,10 +62,10 @@ The higher-speed ESP-01 link (115200 baud) was assigned to the microcontroller's
 
 The system is powered by a regulated **12V/2A DC** supply, stepped down on-board to the voltage levels required by the microcontroller and peripheral modules. All electronics are housed within an **IP-rated waterproof enclosure**, fitted with a transparent front panel that permits direct visual reading of the LCD display without requiring the enclosure to be opened.
 
-`[📷 INSERT PHOTO 1: 3D PCB DESIGN / SCHEMATIC DIAGRAM]`
+![3D PCB Design](3D_PCB.jpg)
 *Figure 3.1: 3D PCB layout and schematic design of the central controller unit.*
 
-`[📷 INSERT PHOTO 2: ASSEMBLED PCB WITH MODULES]`
+![Assembled PCB](images/PCB.jpg)
 *Figure 3.2: Assembled custom PCB populated with ATmega328P, SIM800L, ESP-01, and SD Card modules.*
 
 ---
@@ -103,12 +103,6 @@ To prevent repeated SMS dispatch while the 40 cm danger condition persists, a **
 
 A hardware **Watchdog Timer (WDT)** is enabled and serviced ("kicked") periodically during normal execution. Should the control loop stall — due to a network hang, a blocking UART wait on either wireless interface, or an unforeseen firmware fault — the watchdog reset is no longer serviced in time, and the WDT autonomously forces a full microcontroller reset within seconds, restoring normal operation without manual power-cycling. This is of particular importance for a device intended for unattended, long-duration field deployment.
 
-`[📷 INSERT DIAGRAM: SYSTEM OPERATIONAL FLOWCHART]`
-*Figure 4.1: Flowchart illustrating the sensor reading, dual alert triggers, cooldown logic, and WDT reset loop.*
-
-```{=openxml}
-<w:p><w:r><w:br w:type="page"/></w:r></w:p>
-```
 
 ![Figure 4.1: System Operational Flowchart](flowchart.png){width=3.7in}
 
