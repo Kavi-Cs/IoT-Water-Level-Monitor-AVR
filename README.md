@@ -112,7 +112,7 @@ A hardware **Watchdog Timer (WDT)** is enabled and serviced ("kicked") periodica
 
 The physical prototype is mounted at a fixed point above the monitored water channel. The **JSN-SR04T** ultrasonic sensor is oriented facing directly downward toward the water surface, while the digital rain sensor is positioned with unobstructed exposure to the sky. All control electronics are housed within the **IP-rated waterproof enclosure**, protecting them from direct rain and humidity ingress while closed. The enclosure's **transparent front panel** is aligned directly over the **16×4 LCD display**, allowing an operator to read date, time, water level, rain status, and system state at a glance from outside the enclosure, without exposing the internal electronics to the elements.
 
-`[📷 INSERT PHOTO 3: FINAL END PRODUCT & ENCLOSURE]`
+`![IOT final Prpduct](Final_Box.jpeg)
 *Figure 5.1: Fully enclosed, weatherproof IoT Flood Warning System prototype ready for field deployment.*
 
 ---
