@@ -163,4 +163,3 @@ The Advanced IoT Flood Warning System prototype successfully integrates real-tim
 
 The system's continuous 60-second SD-card logging establishes a structured, timestamped time-series dataset of water level and rainfall conditions. This dataset represents a natural foundation for future application of **Machine Learning / AI models** toward predictive flood forecasting — for example, training time-series models to anticipate an approaching threshold crossing ahead of time, rather than reacting only once the 40 cm or 20 cm thresholds are already reached. Evolving the current reactive, threshold-based architecture into a predictive early-warning system represents a natural and promising direction for future development.
 
----
