@@ -65,7 +65,7 @@ The system is powered by a regulated **12V/2A DC** supply, stepped down on-board
 ![3D PCB Design](3D_PCB.jpg)
 *Figure 3.1: 3D PCB layout and schematic design of the central controller unit.*
 
-![Assembled PCB](PCB.jpg)
+![Assembled PCB](pcb_fINAL.jpeg)
 *Figure 3.2: Assembled custom PCB populated with ATmega328P, SIM800L, ESP-01, and SD Card modules.*
 
 ---
